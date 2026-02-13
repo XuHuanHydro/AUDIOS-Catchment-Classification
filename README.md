@@ -19,6 +19,8 @@ AUDIOS is the first global catchment classification system derived **directly fr
 
 It significantly outperforms the Köppen climate classification in hydrological signature separation and PUB (Predictions in Ungauged Basins) applications.
 
+
+
 ## Repository Contents
 
 - `HS_MC_tick.csv`  
@@ -33,5 +35,55 @@ It significantly outperforms the Köppen climate classification in hydrological 
 - `main.m`  
   → Standalone tool to assign catchment classes using observed data
 
+## Citation
+
+If you use AUDIOS or any part of this repository, please cite the paper:
+
+```bibtex
+@article{xu2025audios,
+  author = {Xu Huan and co-authors},
+  title = {Beyond climate: A Fuzzy Clustering and Explainable AI Method for global natural catchment classification defined by hydrological signatures},
+  journal = {Journal Name},
+  year = {2025},
+  doi = {DOI will be updated},
+  url = {https://github.com/XuHuanHydro/AUDIOS-Catchment-Classification}
+}
+```
+
+
  
+
+## Directory Structure
+
  
+
+```
+./
+├── HS_MC_tick.csv
+├── demoMAT/
+│   ├── main.m
+│   ├── demoData/
+│   │   ├── Basin_ID1.csv
+│   │   ├── multipleBasin.mat
+│   ├── function/
+│   │   ├── classify_by_tree.m
+│   │   ├── compute_all_signatures.m
+│   │   ├── compute_cr1.m
+│   │   ├── compute_dh5.m
+│   │   ├── compute_dl18.m
+│   │   ├── compute_fh3.m
+│   │   ├── compute_ma2.m
+│   │   ├── compute_ra1_ra3.m
+│   │   ├── compute_ta2.m
+├── demoPY/
+│   ├── CART_RF.ipynb
+│   ├── demoData/
+│   │   ├── FSWithMCAbove0.5.csv
+│   │   ├── MCAbovePoint5_BS2Tick.csv
+│   │   ├── TicksWithMCAbove0.5.csv
+```
+
+
+ 
+## License
+Code is licensed under MIT License. Data (HS_MC_tick.csv) is licensed under CC-BY-4.0. See [LICENSE](LICENSE) for details.
