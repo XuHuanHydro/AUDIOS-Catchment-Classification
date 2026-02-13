@@ -86,4 +86,4 @@ If you use AUDIOS or any part of this repository, please cite the paper:
 
  
 ## License
-Code is licensed under MIT License. Data (HS_MC_tick.csv) is licensed under CC-BY-4.0. See [LICENSE](LICENSE) for details.
+Code is licensed under MIT License. Data (HS_MC_tick.csv) is licensed under CC BY-NC 4.0. See [LICENSE](LICENSE) for details.
