@@ -1,0 +1,27 @@
+[
+  {
+    "figure": "Figure8",
+    "pixel_identical_to_adopted_source": true,
+    "sha256": "5cb1d1a877831d955c535f5f20bb5336be396a02624eec372718da8246d20b68"
+  },
+  {
+    "figure": "FigureS11",
+    "pixel_identical_to_adopted_source": true,
+    "sha256": "089808df9d508f432938689347071635bdbcf3e31479e356dd884ef7e6eacac9"
+  },
+  {
+    "figure": "FigureS12",
+    "pixel_identical_to_adopted_source": true,
+    "sha256": "882ec6a491b01155cdd49ce50def9e579c3f0a61f229040139ac52f6f32a51de"
+  },
+  {
+    "figure": "Figure9",
+    "pixel_identical_to_adopted_source": true,
+    "sha256": "2c706e1ad5e2582f6d2a3708c648bc2550379d164a919f68a23cc47fe7df87c6"
+  },
+  {
+    "figure": "FigureS17",
+    "pixel_identical_to_adopted_source": true,
+    "sha256": "6d5fb28e5461249309f224819f5b84a1f715153a53940fb35adef2bdd80dad3c"
+  }
+]

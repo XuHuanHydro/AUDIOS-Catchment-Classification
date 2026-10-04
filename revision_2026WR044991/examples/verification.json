@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "input_files_verified": 27,
+  "scope": "Replotting and summary checks from supplied intermediate results; no model rerun",
+  "external": {
+    "GSIM": {
+      "features": 18,
+      "plotted_comparisons": 72,
+      "table_cells_verified": 90,
+      "targets": 831,
+      "T50_targets": 831
+    },
+    "GSCD": {
+      "features": 17,
+      "plotted_comparisons": 68,
+      "table_cells_verified": 85,
+      "targets": 355,
+      "T50_targets": 213
+    },
+    "GSHA": {
+      "features": 14,
+      "plotted_comparisons": 56,
+      "table_cells_verified": 70,
+      "targets": 803,
+      "T50_targets": 803
+    }
+  },
+  "daily": {
+    "Figure9": [
+      {
+        "metric": "NSE",
+        "n": 627,
+        "median_paired_difference": 0.04017922424760556,
+        "audios_better_percent": 53.110047846889955,
+        "audios_5th_percentile": -25.22385396426244,
+        "knoben_5th_percentile": -174.57111553966968
+      },
+      {
+        "metric": "KGE",
+        "n": 627,
+        "median_paired_difference": 0.06273745067918823,
+        "audios_better_percent": 55.8213716108453,
+        "audios_5th_percentile": -4.79508064439109,
+        "knoben_5th_percentile": -14.401326971948183
+      }
+    ],
+    "FigureS17": [
+      {
+        "metric": "NSE",
+        "n": 627,
+        "median_paired_difference": 0.0031536037027971586,
+        "audios_better_percent": 50.23923444976076,
+        "audios_5th_percentile": -4.657563227278388,
+        "knoben_5th_percentile": -32.31027668276932
+      },
+      {
+        "metric": "KGE",
+        "n": 627,
+        "median_paired_difference": 0.017650906608268735,
+        "audios_better_percent": 51.515151515151516,
+        "audios_5th_percentile": -1.860333111840861,
+        "knoben_5th_percentile": -8.40785677533087
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.14.5",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "matplotlib": "3.10.9"
+  }
+}

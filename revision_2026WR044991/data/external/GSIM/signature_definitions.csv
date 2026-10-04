@@ -1,0 +1,11 @@
+Code,Definition,Unit
+MEAN,Annual mean daily discharge.,m³ s⁻¹
+SD,Annual standard deviation of daily discharge.,m³ s⁻¹
+CV,"Coefficient of variation, calculated as annual SD divided by MEAN.",–
+IQR,"Annual interquartile range, calculated as the 75th minus 25th percentile of daily discharge.",m³ s⁻¹
+MIN,Annual minimum daily discharge.,m³ s⁻¹
+MAX,Annual maximum daily discharge.,m³ s⁻¹
+MIN7,"Annual minimum of the trailing 7-day mean discharge, calculated over the full daily record before selecting yearly extrema.",m³ s⁻¹
+MAX7,"Annual maximum of the trailing 7-day mean discharge, calculated over the full daily record before selecting yearly extrema.",m³ s⁻¹
+"P10, P20, P30, P40, P50, P60, P70, P80, P90",Corresponding non-exceedance percentiles of daily discharge within each year.,m³ s⁻¹
+GINI,"Annual Gini coefficient of daily discharge. Zero denotes equal daily values, while larger values indicate concentration in fewer days.",–

@@ -1,0 +1,9 @@
+# Preserve exact archived CSV bytes for the SHA-256 provenance checks on all OSes.
+data/** -text whitespace=cr-at-eol
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.png binary

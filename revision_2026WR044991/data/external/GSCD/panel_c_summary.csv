@@ -1,0 +1,5 @@
+label,n_features,audios_better_n,median_improvement_percent
+AUDIOSK5 vs KnobenK5,17,17,34.754657604084585
+AUDIOS vs Köppen,17,13,29.67137526922687
+AUDIOS vs Knoben,17,13,24.90263688251644
+AUDIOS vs KnobenK5,17,11,14.951355286322407

@@ -2,23 +2,15 @@
 Global hydrological catchment classification system (AUDIOS) based on hydrological signatures, Fuzzy C-Means clustering, CART rule extraction, and Random Forest extrapolation.
  
 
-## Overview
+## Current revision materials
 
-This repository contains the code and processed data for the **AUDIOS** (Abundant, Unseasonal, Dry, Invariant, Ordinary, and Seasonal) global catchment classification system presented in the paper:
+The partial reproducibility package for **WRR 2026WR044991, revision v8 (4 October 2026)** is available in [revision_2026WR044991](revision_2026WR044991/). It includes intermediate data and runnable Python scripts for Figures 8, 9, S11, S12, and S17, with numerical checks for those plots and Tables S6–S8. See the package README for scope, instructions, provenance, and limitations.
 
-> **Beyond climate: A Fuzzy Clustering and Explainable AI Method for global natural catchment classification defined by hydrological signatures**  
-> Authors: Xu Huan, et al.  
-> Journal: (to be updated)  
-> DOI: (to be updated once published)
+The manuscript is titled **AUDIOS: An Interpretable Framework for Global Catchment Classification Based on Hydrological Signatures** and is under revision at Water Resources Research. No publication DOI is asserted here.
 
-AUDIOS is the first global catchment classification system derived **directly from observed hydrological signatures** rather than climate proxies. It uses:
+## Earlier demonstration materials
 
-- Fuzzy C-Means (FCM) clustering on 1,017 minimally disturbed catchments
-- Classification and Regression Trees (CART) for transparent rule extraction
-- Random Forest for global extrapolation to ungauged basins
-
-It significantly outperforms the Köppen climate classification in hydrological signature separation and PUB (Predictions in Ungauged Basins) applications.
- 
+The root-level CSV and MATLAB/Python demos below predate this revision package and are retained unchanged. They illustrate signature calculation, FCM classification, CART rule extraction, and RF extrapolation. They have not been validated here as an end-to-end reproduction of the current revised manuscript. For revision-specific figures and evaluation results, use the package linked above.
 
 ## Repository Contents
 
@@ -62,7 +54,7 @@ The script includes ready-to-use examples:
 
 → No model training required — just run the script and get the class labels in seconds!
 
-### 2. Reproduce the Core Results
+### 2. Explore the Earlier Demonstration Results
 
 - **Fastest way** — Use the pre-computed results:  
   Open `HS_MC_tick.csv` (in the root directory) with Excel, Python (pandas), or any CSV reader.  
@@ -72,11 +64,11 @@ The script includes ready-to-use examples:
   - Fuzzy membership coefficients
   - Final class labels (based on highest membership)
 
-- **Full reproduction from raw data**:  
+- **Earlier raw-data workflow outline (not a verified full reproduction of the revised manuscript)**:
   1. Download the Caravan dataset (Kratzert et al., 2023).  
   2. Use the MATLAB functions in `demoMAT/function/` (e.g., `compute_all_signatures.m`) to calculate hydrological signatures.  
   3. Perform Fuzzy C-Means (FCM) clustering with the parameters from the paper.  
-  → This reproduces the clustering results presented in the study.
+  → This is a workflow outline; additional settings and the relevant data are required.
 
 - **Reproduce explicit rules and RF model**:  
   Open `demoPY/CART_RF.ipynb` in Jupyter Notebook.  
@@ -85,21 +77,7 @@ The script includes ready-to-use examples:
 
 ## Citation
 
-If you use AUDIOS or any part of this repository, please cite the paper:
-
-```bibtex
-@article{xu2025audios,
-  author = {Xu Huan and co-authors},
-  title = {Beyond climate: A Fuzzy Clustering and Explainable AI Method for global natural catchment classification defined by hydrological signatures},
-  journal = {Journal Name},
-  year = {2025},
-  doi = {DOI will be updated},
-  url = {https://github.com/XuHuanHydro/AUDIOS-Catchment-Classification}
-}
-```
-
-
- 
+Please cite **AUDIOS: An Interpretable Framework for Global Catchment Classification Based on Hydrological Signatures** using its publication details when available. During review, identify manuscript **2026WR044991** and the exact repository commit used. The manuscript number is not a DOI; no placeholder bibliographic entry is provided.
 
 ## Directory Structure
 

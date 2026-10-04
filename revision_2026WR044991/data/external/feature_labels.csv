@@ -1,0 +1,50 @@
+dataset,position,source_feature,label
+GSIM,1,MEAN,MEAN
+GSIM,2,SD,SD
+GSIM,3,CV,CV
+GSIM,4,IQR,IQR
+GSIM,5,MIN,MIN
+GSIM,6,MAX,MAX
+GSIM,7,MIN7,MIN7
+GSIM,8,MAX7,MAX7
+GSIM,9,P10,P10
+GSIM,10,P20,P20
+GSIM,11,P30,P30
+GSIM,12,P40,P40
+GSIM,13,P50,P50
+GSIM,14,P60,P60
+GSIM,15,P70,P70
+GSIM,16,P80,P80
+GSIM,17,P90,P90
+GSIM,18,GINI,GINI
+GSCD,1,BFI1,BFI1
+GSCD,2,BFI2,BFI2
+GSCD,3,BFI3,BFI3
+GSCD,4,BFI4,BFI4
+GSCD,5,K,K
+GSCD,6,Q1,Q1
+GSCD,7,Q5,Q5
+GSCD,8,Q10,Q10
+GSCD,9,Q20,Q20
+GSCD,10,Q50,Q50
+GSCD,11,Q80,Q80
+GSCD,12,Q90,Q90
+GSCD,13,Q95,Q95
+GSCD,14,Q99,Q99
+GSCD,15,T50,T50
+GSCD,16,RC,RC
+GSCD,17,QMEAN,QMEAN
+GSHA,1,x1Percentile,P1
+GSHA,2,x10Percentile,P10
+GSHA,3,x25Percentile,P25
+GSHA,4,median,Median
+GSHA,5,x75Percentile,P75
+GSHA,6,x90Percentile,P90
+GSHA,7,x99Percentile,P99
+GSHA,8,mean,Mean
+GSHA,9,maximumAMF,Max AMF
+GSHA,10,frequencyOfHighflowDays,High-flow freq.
+GSHA,11,averageDurationOfHighflowEvents,High-flow dur.
+GSHA,12,frequencyOfLowflowDays,Low-flow freq.
+GSHA,13,averageDurationOfLowflowEvents,Low-flow dur.
+GSHA,14,numberOfDaysWithQ0days,Zero-flow days

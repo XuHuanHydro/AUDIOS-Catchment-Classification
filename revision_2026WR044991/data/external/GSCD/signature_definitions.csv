@@ -1,0 +1,10 @@
+Code,Definition,Unit
+BFI1,Baseflow fraction from the Van Dijk (2010) recursive filter with a 5-day window.,–
+BFI2,Baseflow fraction from the local-minimum method with surface-runoff duration parameter N = 5 days.,–
+BFI3,Baseflow fraction from the sliding-interval method using a 7-day moving minimum.,–
+BFI4,"Baseflow fraction from connected valleys of non-overlapping 5-day minima (Gustard et al., 1992).",–
+K,"Baseflow recession constant, calculated using a 5-day window and excluding zero flows.",day⁻¹
+"Q1, Q5, Q10, Q20, Q50, Q80, Q90, Q95, Q99",Daily runoff depths at the corresponding percentage exceedance levels.,mm day⁻¹
+T50,Streamflow center-of-mass timing within the water year.,water-year day
+RC,"Runoff coefficient, calculated as mean annual runoff divided by mean annual precipitation.",–
+QMEAN,Mean annual runoff depth over the record.,mm year⁻¹

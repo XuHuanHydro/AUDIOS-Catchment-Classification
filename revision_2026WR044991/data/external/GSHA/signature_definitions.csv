@@ -1,0 +1,10 @@
+Code,Definition,Unit
+"P1, P10, P25, P75, P90, P99",Corresponding non-exceedance percentiles of daily discharge within each year.,m³ s⁻¹
+Median,"Annual median daily discharge, equivalent to the 50th non-exceedance percentile.",m³ s⁻¹
+Mean,Annual mean daily discharge.,m³ s⁻¹
+Max AMF,Annual maximum daily discharge.,m³ s⁻¹
+High-flow freq.,Annual number of days with discharge ≥ the annual 90th percentile.,days
+High-flow dur.,Mean length of consecutive-day runs with discharge ≥ the annual 90th percentile.,days
+Low-flow freq.,Annual number of days with discharge ≤ the annual 10th percentile.,days
+Low-flow dur.,Mean length of consecutive-day runs with discharge ≤ the annual 10th percentile.,days
+Zero-flow days,Annual number of days with discharge equal to zero.,days
